@@ -26,6 +26,8 @@ exports.getToken = (req, res) => {
     return res.status(401).json({ error: 'erro' });
   }
 }
+
+
 /*  
 class SessionController {
   store(req, res) {
