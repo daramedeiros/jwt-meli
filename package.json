@@ -1,7 +1,6 @@
 {
   "name": "n1-kelly-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,10 +10,21 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "debug": "^4.1.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.3"
-  }
+    "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daramedeiros/jwt-meli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daramedeiros/jwt-meli/issues"
+  },
+  "homepage": "https://github.com/daramedeiros/jwt-meli#readme",
+  "keywords": [],
+  "description": ""
 }
